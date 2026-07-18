@@ -12,6 +12,9 @@ A simple Python OpenCV project that detects moving vehicles in a traffic video, 
 ## Project Structure
 ```text
 traffic-Project/
+├── images/
+│   ├── terminal_output.png
+│   └── traffic_output.png
 ├── input.mp4
 ├── src/
 │   └── traffic_counter.py
@@ -34,9 +37,30 @@ pip install opencv-python numpy
 1. Place your video file in the project root and name it `input.mp4`.
 2. Open terminal in the project folder.
 3. Run the script:
+
 ```bash
 python src\traffic_counter.py
 ```
+
+## Input & Output Screenshots
+
+### Running the Project
+
+> This screenshot shows the successful execution of the traffic counter application from Windows PowerShell.
+
+<p align="center">
+  <img src="images/terminal_output.png" alt="Terminal Output" width="900">
+</p>
+
+---
+
+### Traffic Detection Output
+
+> This screenshot shows the live vehicle detection, counting, and traffic density estimation using OpenCV.
+
+<p align="center">
+  <img src="images/traffic_output.png" alt="Traffic Detection Output" width="900">
+</p>
 
 ## How It Works
 - The video is read frame by frame.
