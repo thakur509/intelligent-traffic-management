@@ -49,7 +49,6 @@ python src\traffic_counter.py
 > This screenshot shows the successful execution of the traffic counter application from Windows PowerShell.
 
 <p align="center">
-  <img src="images/terminal_output.png" alt="Terminal Output" width="900">
 </p>
 
 ---
